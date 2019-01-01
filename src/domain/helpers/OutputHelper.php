@@ -17,7 +17,7 @@ class OutputHelper {
 		return '
 <html>
 <head>
-			<title>Wooppay API documentation</title>
+			<title>API documentation</title>
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 			<meta name="generator" content="https://github.com/raml2html/raml2html 6.7.0">
