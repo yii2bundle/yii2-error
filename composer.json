@@ -1,0 +1,22 @@
+{
+	"name": "yii2bundle/yii2-error",
+	"type": "library",
+	"keywords": ["yii2","module","error"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Yamshikov Vitaliy, WOOPPAY LLC",
+			"email": "theyamshikov@yandex.ru"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"yii2module\\error\\": "src"
+		}
+	},
+	"require": {
+		"yiisoft/yii2": "*",
+		"php": ">=5.3.0"
+	}
+}
