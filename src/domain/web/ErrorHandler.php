@@ -2,6 +2,7 @@
 
 namespace yii2module\error\domain\web;
 
+use yii2lab\extension\scenario\collections\ScenarioCollection;
 use yii2lab\extension\scenario\helpers\ScenarioHelper;
 use yii2lab\domain\exceptions\UnprocessableEntityHttpException;
 use yii2module\error\domain\helpers\UnProcessibleHelper;
@@ -27,8 +28,8 @@ class ErrorHandler extends \yii\web\ErrorHandler
 	}
 	
 	private function runFilters(\Throwable $exception) {
-		$filterCollection = ScenarioHelper::forgeCollection($this->filters);
-		ScenarioHelper::runAll($filterCollection, $exception);
+		$filterCollection = new ScenarioCollection($this->filters);
+		$filterCollection->runAll($exception);
 	}
 	
 }
