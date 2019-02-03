@@ -7,7 +7,7 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Inflector;
 use yii\web\HttpException;
 use Exception;
-use yii2lab\domain\exceptions\UnprocessableEntityHttpException;
+use yii2rails\domain\exceptions\UnprocessableEntityHttpException;
 
 class MessageHelper
 {

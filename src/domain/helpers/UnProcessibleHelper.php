@@ -4,7 +4,7 @@ namespace yii2module\error\domain\helpers;
 
 use yii\base\Model;
 use yii\helpers\ArrayHelper;
-use yii2lab\domain\helpers\ErrorCollection;
+use yii2rails\domain\helpers\ErrorCollection;
 
 class UnProcessibleHelper
 {
