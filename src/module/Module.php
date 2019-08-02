@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\error\module;
+namespace yii2bundle\error\module;
 
 use yii\base\Module as YiiModule;
 

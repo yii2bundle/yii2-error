@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\error\domain\helpers;
+namespace yii2bundle\error\domain\helpers;
 
 class OutputHelper {
 	

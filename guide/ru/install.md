@@ -13,7 +13,7 @@ composer require yii2module/yii2-error
 return [
 	'modules' => [
 		// ...
-		'error' => 'yii2module\error\module\Module',
+		'error' => 'yii2bundle\error\module\Module',
 		// ...
 	],
 ];
@@ -31,6 +31,6 @@ return [
 
 ```php
 Yii::$container->set('yii\web\ErrorHandler', [
-	'class' => 'yii2module\error\domain\web\ErrorHandler',
+	'class' => 'yii2bundle\error\domain\web\ErrorHandler',
 ]);
 ```

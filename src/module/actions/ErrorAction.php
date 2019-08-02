@@ -1,8 +1,8 @@
 <?php
 
-namespace yii2module\error\module\actions;
+namespace yii2bundle\error\module\actions;
 
-use yii2module\error\domain\helpers\MessageHelper;
+use yii2bundle\error\domain\helpers\MessageHelper;
 
 class ErrorAction extends \yii\web\ErrorAction
 {

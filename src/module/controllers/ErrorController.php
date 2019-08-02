@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\error\module\controllers;
+namespace yii2bundle\error\module\controllers;
 
 use yii\web\Controller;
 
@@ -17,7 +17,7 @@ class ErrorController extends Controller
 	{
 		return [
 			'error' => [
-				'class' => 'yii2module\error\module\actions\ErrorAction',
+				'class' => 'yii2bundle\error\module\actions\ErrorAction',
 			],
 		];
 	}

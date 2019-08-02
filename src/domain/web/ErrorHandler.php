@@ -1,11 +1,11 @@
 <?php
 
-namespace yii2module\error\domain\web;
+namespace yii2bundle\error\domain\web;
 
 use yii2rails\extension\scenario\collections\ScenarioCollection;
 use yii2rails\extension\scenario\helpers\ScenarioHelper;
 use yii2rails\domain\exceptions\UnprocessableEntityHttpException;
-use yii2module\error\domain\helpers\UnProcessibleHelper;
+use yii2bundle\error\domain\helpers\UnProcessibleHelper;
 
 class ErrorHandler extends \yii\web\ErrorHandler
 {
